@@ -1,3 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cliente</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
 
+<body>
+    <header>
+        <h1>Formulário de Cliente</h1>
+    </header>
 
+    <section class="container">
+        <form action="recebeCliente.php" method="post">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome">
 
+            <label for="email">E-mail: </label>
+            <input type="email" name="email">
+
+            <label for="phone">Telefone: </label>
+            <input type="text" name="phone">
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
