@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto de Sálario</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Informe seu Salário</h1>
+    </header>
+
+    <section class="container">
+        <form action="banco/conexao.php" method="get">
+            
+            <label for="nome">Nome</label>
+            <input type="text" min="1" name="nome" step="0.1">
+            <label for="preco">Preço</label>
+            <input type="number" min="1" name="preco" step="0.1">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

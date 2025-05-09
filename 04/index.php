@@ -32,3 +32,14 @@ function dividir(int $a, int $b): float | string {
 }
 
 echo "Retorno da divisão: " . dividir(10, 8) . "<br>";
+
+function listarNomes(array $nomes): void {
+    foreach($nomes as $n) {
+        echo "<li>$n</li>";
+    }
+}
+
+$professores = ["Celso", "Luana", "Arlindo"];
+echo "<ul>";
+listarNomes($professores);
+echo "</ul>";
