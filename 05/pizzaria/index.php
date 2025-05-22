@@ -20,6 +20,8 @@ $pizzas = $bd->getAll();
 <body>
     <h2>Lista de Pizzas</h2>
 
+    <a href="contato_form.php">Cadastrar Pizza</a><br>
+
     <table border="1" cellpading="5">
         <tr><th>ID</th><th>SABOR</th><th>TAMANHO</th><th>PREÇO</th></tr>
         <?php foreach($pizzas as $p): ?>
